@@ -1,0 +1,24 @@
+{
+  "name": "icyapril/whats-changed",
+  "description": "Run PHPUnit tests on only classes and tests which have changed",
+  "type": "library",
+  "require": {
+    "php": ">=7.0",
+    "phpunit/phpunit": "^6.1"
+  },
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Junade Ali",
+      "email": "mjsa@junade.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "IcyApril\\WhatsChanged\\": "src"
+    }
+  },
+  "bin": [
+    "whatschanged"
+  ]
+}
