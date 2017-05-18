@@ -4,7 +4,7 @@
   "type": "library",
   "require": {
     "php": ">=7.0",
-    "phpunit/phpunit": "^6.1"
+    "phpunit/phpunit": "^6.0"
   },
   "license": "BSD-3-Clause",
   "authors": [
